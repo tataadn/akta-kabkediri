@@ -38,23 +38,84 @@ export default function DownloadSection() {
             📝 Contoh Pengisian Formulir
           </h4>
 
-          <div className="space-y-8">
+          {/* CONTOH F-101 */}
+          <div className="bg-white p-6 rounded-xl shadow-md mb-8">
+            <h4 className="font-bold mb-4 text-blue-600">
+            FORMULIR F-1.01 (CONTOH PENGISIAN)
+            </h4>
+            <img
+              src="/pdf/contoh-f101_page-0001.jpg"
+              alt="Contoh F-1.01"
+              className="rounded-lg shadow-md"
+            />
+            <img
+              src="/pdf/contoh-f101_page-0002.jpg"
+              alt="Contoh F-1.01"
+              className="rounded-lg shadow-md mt-6"
+            />
+            <img
+              src="/pdf/contoh-f101_page-0003.jpg"
+              alt="Contoh F-1.01"
+              className="rounded-lg shadow-md mt-6"
+            />
+          </div>
+          
+          {/* CONTOH F-102 */}
+          <div className="bg-white p-6 rounded-xl shadow-md mb-8">
+            <h4 className="font-bold mb-4 text-blue-600">
+            FORMULIR F-1.02 (CONTOH PENGISIAN)
+            </h4>
+            <img
+              src="/pdf/contoh-f102.jpg"
+              alt="Contoh F-1.02"
+              className="rounded-lg shadow-md"
+            />
+          </div>
+
+          {/* CONTOH F-101 */}
+          <div className="bg-white p-6 rounded-xl shadow-md mb-8">
+            <h4 className="font-bold mb-4 text-blue-600">
+            FORMULIR F-2.01 (CONTOH PENGISIAN)
+            </h4>
+            <img
+              src="/pdf/contoh-f201_page-0001.jpg"
+              alt="Contoh F-2.01"
+              className="rounded-lg shadow-md"
+            />
+            <img
+              src="/pdf/contoh-f201_page-0002.jpg"
+              alt="Contoh F-2.01"
+              className="rounded-lg shadow-md mt-6"
+            />
+            <img
+              src="/pdf/contoh-f201_page-0003.jpg"
+              alt="Contoh F-2.01"
+              className="rounded-lg shadow-md mt-6"
+            />
+            <img
+              src="/pdf/contoh-f201_page-0004.jpg"
+              alt="Contoh F-2.01"
+              className="rounded-lg shadow-md mt-6"
+            />
+          </div>
+
+          {/* <div className="space-y-8">
             <iframe
-              src="/pdf/contoh1.pdf"
+              src="/pdf/contoh-f101.pdf"
               className="w-full h-[600px] border rounded-lg"
               title="Contoh Pengisian 1"
             />
             <iframe
-              src="/pdf/contoh2.pdf"
+              src="/pdf/contoh-f102.pdf"
               className="w-full h-[600px] border rounded-lg"
               title="Contoh Pengisian 2"
             />
             <iframe
-              src="/pdf/contoh3.pdf"
+              src="/pdf/contoh-f201.pdf"
               className="w-full h-[600px] border rounded-lg"
               title="Contoh Pengisian 3"
             />
-          </div>
+          </div> */}
         </div>
 
         {/* CONTOH DOKUMEN (GAMBAR) */}
@@ -69,7 +130,7 @@ export default function DownloadSection() {
             4. SURAT KETERANGAN LAHIR DARI RUMAH SAKIT (WAJIB) <br />
           </h4>
 
-          <div className="grid md:grid-cols-2 gap-6">
+          <div className="grid md:grid-cols-2 gap-6 mb-8">
             <img
               src="/pdf/contoh-ktp.jpeg"
               alt="Contoh KTP"
@@ -82,15 +143,15 @@ export default function DownloadSection() {
             />
           </div>
           <div className="grid md:grid-cols-1 gap-6">
-            <iframe
-              src="/pdf/contoh-kk.pdf"
-              className="w-full h-[600px] border rounded-lg"
-              title="Contoh file KK"
+            <img
+              src="/pdf/contoh-kk.jpg"
+              alt="Contoh KK"
+              className="rounded-lg shadow-md"
             />
-            <iframe
-              src="/pdf/contoh-skl.pdf"
-              className="w-full h-[600px] border rounded-lg"
-              title="Contoh Surat Keterangan Lahir"
+            <img
+              src="/pdf/contoh-skl.jpg"
+              alt="Contoh Surat Keterangan Lahir"
+              className="rounded-lg shadow-md"
             />
           </div>
         </div>
