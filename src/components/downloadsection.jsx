@@ -126,6 +126,7 @@ export default function DownloadSection() {
           <h4 className="font-bold mb-6 text-red-600 text-lg">
             1. FC KTP SUAMI ISTRI + 2 ORANG SAKSI DARI PIHAK KELUARGA (WAJIB) <br />
             2. FC WARNA BUKU NIKAH WAJIB SESUAI KETENTUAN (WAJIB) <br />
+            <span className="text-black text-sm">   *Catatan: Pastikan tanggal terbit buku nikah tidak lebih dulu dari tanggal perkawinan! Jika tanggal terbit buku nikah lebih dulu, segera hubungi Admin!</span> <br />
             3. KK ASLI (WAJIB) <br />
             4. SURAT KETERANGAN LAHIR DARI RUMAH SAKIT (WAJIB) <br />
           </h4>
